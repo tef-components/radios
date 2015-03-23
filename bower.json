@@ -1,11 +1,11 @@
 {
-  "name": "buttons",
+  "name": "radios",
   "version": "0.2.10",
-  "homepage": "https://github.com/tef-components/buttons",
+  "homepage": "https://github.com/tef-components/radios",
   "authors": [
     "the TEF components team"
   ],
-  "description": "TEF components - buttons",
+  "description": "TEF components - radios",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
@@ -16,8 +16,5 @@
     "package.json",
     "node_modules",
     "bower_components"
-  ],
-  "dependencies": {
-    "icons": "tef-components/icons"
-  }
+  ]
 }

@@ -32,7 +32,7 @@
   <body>
     <div class="tef-wrapper">
       <header data-columns="2" data-columns-xs="1">
-        <h1>Buttons</h1>
+        <h1>Radio buttons</h1>
         <div>
           <label>Change theme</label>
           <div class="tef-dropdown" data-icon="angle_down">
@@ -47,140 +47,78 @@
       </header>
 
       <h2>Default</h2>
-      <div class="tef-row">
-        <a href="" class="tef-button small">Small anchor</a>
-        <button class="tef-button small">Small button</button>
-      </div>
-      <div class="tef-row">
-        <a href="" class="tef-button">Default anchor</a>
-        <button class="tef-button">Default button</button>
-      </div>
-      <div class="tef-row">
-        <a href="" class="tef-button large">Large anchor</a>
-        <button class="tef-button large">Large Button</button>
-      </div>
+      <label class="tef-radio">
+        <input checked="" type="radio" name="radio1">
+        <span>Radio text 1</span>
+      </label>
+      <label class="tef-radio">
+        <input type="radio" name="radio1">
+        <span>Radio text 2</span>
+      </label>
       <code>
         <style>
-      <a href="" class="tef-button">Default anchor</a>
-      <button class="tef-button">Default button</button>
+      <label class="tef-radio">
+        <input checked="" type="radio" name="radio1">
+        <span>Radio text 1</span>
+      </label>
         </style>
       </code>
 
-      <h2>Positive</h2>
-      <button class="tef-button positive small">Small</button>
-      <button class="tef-button positive">Default</button>
-      <button class="tef-button positive large">Large</button>
+      <h2>Right aligned</h2>
+      <label class="tef-radio right">
+        <input checked="" type="radio" name="radio2">
+        <span>Radio text 1</span>
+      </label>
+      <label class="tef-radio right">
+        <input type="radio" name="radio2">
+        <span>Radio text 2</span>
+      </label>
       <code>
         <style>
-      <button class="tef-button positive small">Small</button>
-      <button class="tef-button positive">Default</button>
-      <button class="tef-button positive large">Large</button>
+      <label class="tef-radio right">
+        <input checked="" type="radio" name="radio2">
+        <span>Radio text 1</span>
+      </label>
         </style>
       </code>
 
-      <h2>Negative</h2>
-      <button class="tef-button negative small">Small</button>
-      <button class="tef-button negative">Default</button>
-      <button class="tef-button negative large">Large</button>
+      <h2>Block</h2>
+      <label class="tef-radio block">
+        <input checked="" type="radio" name="radio3">
+        <span>Radio text 1</span>
+      </label>
+      <label class="tef-radio block block">
+        <input type="radio" name="radio3">
+        <span>Radio text 2</span>
+      </label>
       <code>
         <style>
-      <button class="tef-button negative small">Small</button>
-      <button class="tef-button negative">Default</button>
-      <button class="tef-button negative large">Large</button>
+      <label class="tef-radio block">
+        <input checked="" type="radio" name="radio3">
+        <span>Radio text 1</span>
+      </label>
         </style>
       </code>
 
-      <h2>Subdued</h2>
-      <button class="tef-button subdued small">Small</button>
-      <button class="tef-button subdued">Default</button>
-      <button class="tef-button subdued large">Large</button>
+      <h2>Block and right aligned</h2>
+      <label class="tef-radio block right">
+        <input checked="" type="radio" name="radio4">
+        <span>Radio text 1</span>
+      </label>
+      <label class="tef-radio block right">
+        <input type="radio" name="radio4">
+        <span>Radio text 2</span>
+      </label>
       <code>
         <style>
-      <button class="tef-button subdued small">Small</button>
-      <button class="tef-button subdued">Default</button>
-      <button class="tef-button subdued large">Large</button>
+      <label class="tef-radio block right">
+        <input checked="" type="radio" name="radio3">
+        <span>Radio text 1</span>
+      </label>
         </style>
       </code>
 
-      <h2>Significant</h2>
-      <button class="tef-button significant small">Small</button>
-      <button class="tef-button significant">Default</button>
-      <button class="tef-button significant large">Large</button>
-      <code>
-        <style>
-      <button class="tef-button significant small">Small</button>
-      <button class="tef-button significant">Default</button>
-      <button class="tef-button significant large">Large</button>
-        </style>
-      </code>
 
-      <h2>Icons</h2>
-      <div class="tef-row">
-        <button class="tef-button small">
-          Add
-        </button>
-        <button class="tef-button small">
-          <i data-icon="plus"></i>
-        </button>
-        <button class="tef-button small">
-          <i data-icon="plus"></i>
-          <span>Add</span>
-        </button>
-        <button class="tef-button small">
-          <span>Add</span>
-          <i data-icon="plus"></i>
-        </button>
-      </div>
-      <div class="tef-row">
-        <button class="tef-button">
-          Add
-        </button>
-        <button class="tef-button">
-          <i data-icon="plus"></i>
-        </button>
-        <button class="tef-button">
-          <i data-icon="plus"></i>
-          <span>Add</span>
-        </button>
-        <button class="tef-button">
-          <span>Add</span>
-          <i data-icon="plus"></i>
-        </button>
-      </div>
-      <div class="tef-row">
-        <button class="tef-button large">
-          Add
-        </button>
-        <button class="tef-button large">
-          <i data-icon="plus"></i>
-        </button>
-        <button class="tef-button large">
-          <i data-icon="plus"></i>
-          <span>Add</span>
-        </button>
-        <button class="tef-button large">
-          <span>Add</span>
-          <i data-icon="plus"></i>
-        </button>
-      </div>
-      <code>
-        <style>
-      <button class="tef-button small">
-        Add
-      </button>
-      <button class="tef-button small">
-        <i data-icon="plus"></i>
-      </button>
-      <button class="tef-button small">
-        <i data-icon="plus"></i>
-        <span>Add</span>
-      </button>
-      <button class="tef-button small">
-        <span>Add</span>
-        <i data-icon="plus"></i>
-      </button>
-        </style>
-      </code>
 
       <h2>Disabled</h2>
       <button class="tef-button disabled">Default</button>
