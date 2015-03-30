@@ -1,3 +1,3 @@
-# TEF buttons
+# TEF radios
 
-Preview all buttons: [http://tef-components.github.io/buttons/index.html](http://tef-components.github.io/buttons/index.html)
+Preview all radios: [http://tef-components.github.io/radios/index.html](http://tef-components.github.io/radios/index.html)
